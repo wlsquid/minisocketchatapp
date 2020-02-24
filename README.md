@@ -5,7 +5,7 @@ The App will display messages and When someone has left or joined the chat.
 
 To run first install Express and Socket.IO in the directory you want to run the app from with 
 
->npm install express@4.15.2
+>npm install express@4.15.2 (or whatever the latest version is)
 
 and then
 
