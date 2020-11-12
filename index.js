@@ -7,7 +7,7 @@ app.get('/', function(req, res){
 });
 io.on("connection", function(socket){
   console.log('a user connected');
-  io.emit('chat message', 'Somone Joined the chat');
+  io.emit('chat message', 'Someone Joined the chat');
   socket.on("chat message", function(msg) {
     console.log('message: ' + msg);
     io.emit('chat message', msg);
